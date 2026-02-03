@@ -1,0 +1,10 @@
+[tools]
+go = "latest"
+
+[tasks.chapter02-main-run]
+dir = "{{cwd}}/chapter02"
+run = "go run main.go"
+
+[tasks.chapter02-exercise-run]
+dir = "{{cwd}}/chapter02/exercise"
+run = "go run *.go"
