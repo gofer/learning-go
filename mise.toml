@@ -8,3 +8,7 @@ run = "go run main.go"
 [tasks.chapter02-exercise-run]
 dir = "{{cwd}}/chapter02/exercise"
 run = "go run *.go"
+
+[tasks.chapter03-main-run]
+dir = "{{cwd}}/chapter03"
+run = "go run main.go"
