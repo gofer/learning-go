@@ -12,3 +12,15 @@ run = "go run *.go"
 [tasks.chapter03-main-run]
 dir = "{{cwd}}/chapter03"
 run = "go run main.go"
+
+[tasks.chapter03-exercise-run]
+dir = "{{cwd}}/chapter03/exercise"
+run = "go run *.go"
+
+[tasks.chapter04-main-run]
+dir = "{{cwd}}/chapter04"
+run = "go run main.go"
+
+[tasks.chapter04-exercise-run]
+dir = "{{cwd}}/chapter04/exercise"
+run = "go run *.go"
