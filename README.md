@@ -29,3 +29,12 @@
 
 - ブロック，シャドーイング
 - 制御構造: if / for / switch / goto
+
+
+## 5章 関数
+
+[`chapter05`](chapter05)
+
+- 関数
+- 無名関数とクロージャ
+- defer

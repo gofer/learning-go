@@ -24,3 +24,11 @@ run = "go run main.go"
 [tasks.chapter04-exercise-run]
 dir = "{{cwd}}/chapter04/exercise"
 run = "go run *.go"
+
+[tasks.chapter05-main-run]
+dir = "{{cwd}}/chapter05"
+run = "go build -o main *.go && ./main ./example008.go && rm main"
+
+[tasks.chapter05-exercise-run]
+dir = "{{cwd}}/chapter05/exercise"
+run = "go run *.go"
