@@ -1,0 +1,18 @@
+/**
+ * 5章 関数
+ */
+
+package main
+
+func main() {
+	example001()
+	example002()
+	example003()
+	example004()
+	example005()
+	example006()
+	example007()
+	example008()
+	example009()
+	// ToDo: 5.4 defer (p.111) から
+}
