@@ -14,5 +14,4 @@ func main() {
 	example007()
 	example008()
 	example009()
-	// ToDo: 5.4 defer (p.111) から
 }
