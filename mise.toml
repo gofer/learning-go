@@ -40,3 +40,11 @@ run = "go run main.go"
 [tasks.chapter06-exercise-run]
 dir = "{{cwd}}/chapter06/exercise"
 run = "go run *.go"
+
+[tasks.chapter07-main-run]
+dir = "{{cwd}}/chapter07"
+run = "go run *.go"
+
+[tasks.chapter07-exercise-run]
+dir = "{{cwd}}/chapter07/exercise"
+run = "go run main.go"

@@ -1,0 +1,11 @@
+{
+  "key1": "string value",
+  "key2": 123,
+  "key3": true,
+  "key4": null,
+  "key5": [1, 2, 3],
+  "key6": {
+    "nestedKey1": "nested value",
+    "nestedKey2": 456
+  }
+}
